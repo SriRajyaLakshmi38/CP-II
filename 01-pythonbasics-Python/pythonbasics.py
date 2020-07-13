@@ -8,4 +8,6 @@
 
 def show_excitement():
     # Your code goes here!
+    s=" " .join(["I am super excited for this course!"]*5)
+    return s+" "
     pass
