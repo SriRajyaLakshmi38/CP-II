@@ -7,9 +7,9 @@
 # return root1, root2
 
 import math
-a=int(input("Enter a number:"))
-b=int(input("Enter a number:"))
-c=int(input("Enter a number:"))
+#a=int(input("Enter a number:"))
+#b=int(input("Enter a number:"))
+#c=int(input("Enter a number:"))
 def fun_find_int_roots(a, b, c):
 	d=(b*b)-(4*a*c)
 	if d==0:
@@ -20,6 +20,6 @@ def fun_find_int_roots(a, b, c):
 		root2=(-b+math.sqrt(d))/2*a
 		print(int(root1),int(root2))
 	return int(root1),int(root2)
-fun_find_int_roots(a,b,c)
+#fun_find_int_roots(a,b,c)
 
 
