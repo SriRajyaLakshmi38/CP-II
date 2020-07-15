@@ -13,11 +13,16 @@
 
 
 def fun_fabricyards(inches):
-	# your code goes here
-	return 1
+	yard=inches/36
+	if(type(yard)=="float"):
+		return yard+1
+	elif(type(yard)=="int"):
+		return yard
+
 
 def fun_fabricexcess(inches):
-	# your code goes here
+	
+
 	return 1
 
 
