@@ -10,20 +10,16 @@
 
 def gcd(m, n):
 	# your code goes here
-	if(m==0 or n==0):
-		return 1
-	elif(m>n):
-		r=m%n
-		if(r!=0):	
-			m=n
-			n=r
-		return m
-	else:
-		r=n%m
-		if(r!=0):
-			n=m
-			m=r
-			gcd(m,n)
+	if(m==0):
 		return n
-
+	elif n==0:
+		return m
+	elif(m>n):
+		s=n
+	else:
+		s=m
+	for i in range(1,s+1):
+		if(m%i==0 and n%i==0):
+			gcd=i
+	return gcd
 pass
