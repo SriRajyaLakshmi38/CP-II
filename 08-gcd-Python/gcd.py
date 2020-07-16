@@ -20,6 +20,6 @@ def gcd(m, n):
 		s=m
 	for i in range(1,s+1):
 		if(m%i==0 and n%i==0):
-			gcd=i
-	return gcd
+			gcf=i
+	return gcf
 pass
